@@ -1,0 +1,9 @@
+.db/
+data
+__pycache__/
+*.py[cod]
+pip-log.txt
+pip-delete-this-directory.txt
+.cache
+*.log
+*.pot
