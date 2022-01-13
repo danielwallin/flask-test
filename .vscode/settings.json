@@ -3,9 +3,8 @@
   "editor.formatOnSave": true,
   "[python]": {
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true
+        "source.sortImports": true
     }
   },
-  "editor.renderWhitespace": true,
-  "python.pythonPath": "/Users/daniel.wallin/.local/share/virtualenvs/test-flask-y6bWNp4D/bin/python"
+  "editor.renderWhitespace": true
 }
