@@ -12,6 +12,8 @@ services:
     depends_on:
       - db
   db:
-    build: ./db
+    image: postgres
+    volumes: 
+      - ./db/setup.sql:/docker-entrypoint-initdb.d/
     container_name: flask-db-container
     env_file: .env
